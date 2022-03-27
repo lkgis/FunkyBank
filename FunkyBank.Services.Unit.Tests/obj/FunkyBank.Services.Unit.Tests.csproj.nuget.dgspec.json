@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leegisore/RiderProjects/FunkyBank/FunkyBank.Services.Unit.Tests/FunkyBank.Services.Unit.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/leegisore/RiderProjects/FunkyBank/FunkyBank.Services.Unit.Tests/FunkyBank.Services.Unit.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leegisore/RiderProjects/FunkyBank/FunkyBank.Services.Unit.Tests/FunkyBank.Services.Unit.Tests.csproj",
+        "projectName": "FunkyBank.Services.Unit.Tests",
+        "projectPath": "/Users/leegisore/RiderProjects/FunkyBank/FunkyBank.Services.Unit.Tests/FunkyBank.Services.Unit.Tests.csproj",
+        "packagesPath": "/Users/leegisore/.nuget/packages/",
+        "outputPath": "/Users/leegisore/RiderProjects/FunkyBank/FunkyBank.Services.Unit.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leegisore/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/leegisore/.dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>FunkyBank</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FunkyBank.Core\FunkyBank.Core.csproj" />
+      <ProjectReference Include="..\FunkyBank.DataAccess.Core\FunkyBank.DataAccess.Core.csproj" />
+      <ProjectReference Include="..\FunkyBank.DataAccess.Dapper\FunkyBank.DataAccess.Dapper.csproj" />
+      <ProjectReference Include="..\FunkyBank.DTO\FunkyBank.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AzureFunctions.Autofac" Version="4.0.3" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.2.22152.2" />
+    </ItemGroup>
+
+</Project>

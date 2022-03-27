@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AzureFunctionsVersion>V4</AzureFunctionsVersion>
+        <RootNamespace>FunkyBank</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="AzureFunctions.Autofac" Version="4.0.3" />
+        <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.23" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.2.22152.2" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="host.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="local.settings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\FunkyBank.DataAccess.Core\FunkyBank.DataAccess.Core.csproj" />
+      <ProjectReference Include="..\FunkyBank.Services\FunkyBank.Services.csproj" />
+    </ItemGroup>
+</Project>
